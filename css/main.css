@@ -295,9 +295,21 @@ section {
 div.service-icon{
   background-color: #353637;
 }
-div.service-icon:hover{
-  box-shadow: 0px 0px 50px #2DC9DA;
+
+div.service-icon:hover
+  {
+    box-shadow: 0px 0px 50px #2DC9DA;
+  }
+
+@media only screen and (max-device-width: 480px) {
+  /* define mobile specific styles come here */
+  div.service-icon:hover
+  {
+    box-shadow: 0px 0px 50px #2DC9DA;
+  }
 }
+
+
 
 #env-impact{
   color: #00cc00;
