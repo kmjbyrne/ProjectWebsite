@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <title>PILYNK - Home OS</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link href="css/animate.min.css" rel="stylesheet"> 
+  <link href="css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/lightbox.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link id="css-preset" href="css/presets/preset1.css" rel="stylesheet">
+  <link href="css/responsive.css" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+  <![endif]-->
+  
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700' rel='stylesheet' type='text/css'>
+  <link rel="shortcut icon" href="images/favicon.ico">
+</head><!--/head-->
+
+<body>
+
+  <!--.preloader-->
+  <div class="preloader"> <i class="fa fa-circle-o-notch fa-spin"></i></div>
+  <!--/.preloader-->
+
+	<!--=========== BEGIN HEADER SECTION ================-->
+  <header id="home">
+    <div id="home-slider" class="carousel slide carousel-fade" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active" style="background-image: url(images/slider/1.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Introducing <BR>Pi<span>LYNK</span></h1>
+            <p class="animated fadeInRightBig">The Integrated Home Automation Solution</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Explore</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/2.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Make technology work <span>for you</span></h1>
+            <p class="animated fadeInRightBig">connecting homes and people</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Explore</a>
+          </div>
+        </div>
+        <div class="item" style="background-image: url(images/slider/3.jpg)">
+          <div class="caption">
+            <h1 class="animated fadeInLeftBig">Gain control of<span> your home</span></h1>
+            <p class="animated fadeInRightBig">Automated management at your fingertips</p>
+            <a data-scroll class="btn btn-start animated fadeInUpBig" href="#services">Explore</a>
+          </div>
+        </div>
+      </div>
+      <a class="left-control" href="#home-slider" data-slide="prev"><i class="fa fa-angle-left"></i></a>
+      <a class="right-control" href="#home-slider" data-slide="next"><i class="fa fa-angle-right"></i></a>
+
+      <a id="tohash" href="#services"><i class="fa fa-angle-down"></i></a>
+
+    </div><!--/#home-slider-->
+    <div class="main-nav">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="index.html">
+            <h1><img class="img-responsive" src="" alt="logo"></h1>
+          </a>                    
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">                 
+            <li class="scroll"><a href="#home">Home</a></li>
+            <li class="scroll"><a href="#services">Services</a></li> 
+            <li class="scroll"><a href="#about-us">About</a></li>                     
+            <li class="scroll"><a href="#devices">Devices</a></li>
+            <li class="scroll"><a href="#documentation">Documentation</a></li>
+            <li class="scroll"><a href="#team">Personal</a></li>
+            <li class="scroll"><a href="#contact">Contact</a></li>       
+          </ul>
+        </div>
+      </div>
+    </div><!--/#main-nav-->
+  </header><!--/#home-->
+
+
+
+
+  <section id="services">
+    <div class="container">
+      <div class="heading wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+        <div class="row">
+          <div class="text-center col-sm-8 col-sm-offset-2">
+            <h2>Services</h2>
+            <p>Providing an optimised home automation solution means providing a list of trusting services that users can rely on on a daily basis, all year round. What does Pi LYNK offer?</p>
+          </div>
+        </div> 
+      </div>
+      <div class="text-center our-services">
+        <div class="row">
+          <div class="col-sm-4 wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-user" id = "user-interface"></i>
+            </div>
+            <div class="service-info">
+              <h3>User Friendly Interface</h3>
+              <p>Designed for maximum uX and responsiveness that users expect from a modern system. Intuitive display for ease of access.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="450ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-signal" id = "connect-porto"></i>
+            </div>
+            <div class="service-info">
+              <h3>Connectivity &amp; Portability</h3>
+              <p>Gauranteed system connectivety, no matter the location, no matter the time. Always on, always available. Accessible using a wide range of devices.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="550ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-stats" id = "informative-feedback"></i>
+            </div>
+            <div class="service-info">
+              <h3>Informative Feedback</h3>
+              <p>Integrated graphing solutions to show what your home is using and when. Extended sensor monitoring allows for easy click and go feedback</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="650ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-plus-sign" id="ext-dev"></i>
+            </div>
+            <div class="service-info">
+              <h3>Extensible Development</h3>
+              <p>Not every setup is ideal for every home. Design allows for upgrading the system with the systems closed product device range from relays to sensors.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="750ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-leaf" id = "env-impact"></i>
+            </div>
+            <div class="service-info">
+              <h3>Environmental Impact</h3>
+              <p>Our carbon footprint is an issue everyone should be aware of. Reduce this footprint by eliminating unnecessary usage around the home.</p>
+            </div>
+          </div>
+          <div class="col-sm-4 wow fadeInUp animated" data-wow-duration="1000ms" data-wow-delay="850ms">
+            <div class="service-icon">
+              <i class="glyphicon glyphicon-lock" id = "secure-access"></i>
+            </div>
+            <div class="service-info">
+              <h3>Secure Access &amp; Storage</h3>
+              <p>Keeping interaction data secure is a top priority in any system. No exceptions are made here. Secure data storage - ensuring your home control is secure.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#services-->
+
+
+
+
+  <section id="about-us" class="parallax">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="about-info wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms">
+            <h2>About the Project & Progress Made</h2>
+            <p>Project proposed as part of the fourth year of the Software Development Bachelors of Science at the Institute of Technology Carlow. The aim of the project was to understand the fundamentals technologies becoming more and more common in everday usage relating to the Internet of Everthing.</p>
+            <p>At the moment the project is nearing the end of the scheduled iteration one period. This iteration involved the core development of low level communications, setups, establishing a networking solution and prototyping server technology.</p>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="our-skills wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
+            <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 300ms; animation-name: fadeInDown;">
+              <p class="lead">Web Design &amp; User Experience</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="50">50%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="400ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 400ms; animation-name: fadeInDown;">
+              <p class="lead">Low Level Device Commnication</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="70">70% - Transmit, Receive & Control</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 500ms; animation-name: fadeInDown;">
+              <p class="lead">Python Programming</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="35">35%</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+              <p class="lead">Planning &amp; Solution Design</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="85">80% - Functional Specification & Data Requirements</div>
+              </div>
+            </div>
+            <div class="single-skill wow fadeInDown animated" data-wow-duration="1000ms" data-wow-delay="600ms" style="visibility: visible; animation-duration: 1000ms; animation-delay: 600ms; animation-name: fadeInDown;">
+              <p class="lead">Documentation</p>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary six-sec-ease-in-out" role="progressbar" aria-valuetransitiongoal="65">65%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section><!--/#about-us-->
+
+
+  <section id="devices">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1200ms; animation-delay: 300ms; animation-name: none;">
+          <h2>Communication Devices & Link</h2>
+          <p>The main goal of the system is the handle the remote operation of devices and lighting. Secondary services come in the form of various sensor modules to monitor aspects of the home</p>
+        </div>
+      </div>
+      <div class="pricing-table">
+        <div class="row">
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+              <h3>Mains Socket Devices</h3>
+              <div class="price">
+                <span>Two Module Varieties</span>                          
+              </div>
+              <ul>
+                <li>Expert or Simple Installation</li>
+                <li>~100 Metre Range</li>
+                <li>Internal & External Solutions</li>
+                <li>Plug In or Radio Relay</li>
+                <li>Customizable time rules</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 500ms; animation-name: none;">
+              <h3>Lighting</h3>
+              <div class="price">
+                <span>Two Module Varieties</span>                                
+              </div>
+              <ul>
+                <li>Expert or Simple Installation</li>
+                <li>~70 Metre Range</li>
+                <li>Internal Solutions</li>
+                <li>Plug In or Radio Relay</li>
+                <li>Customizable time rules</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table wow wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 800ms; animation-name: none;">
+              <h3>Sensors</h3>
+              <div class="price">
+                <span>Integrated</span>                                
+              </div>
+              <ul>
+                <li>Movement</li>
+                <li>Temperature</li>
+                <li>Humidity</li>
+                <li>Feedback</li>
+                <li>24/7 Monitoring</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="single-table wow flipInY" data-wow-duration="1000ms" data-wow-delay="1100ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 1100ms; animation-name: none;">
+              <h3>User Interface</h3>
+              <div class="price">
+                <span>One for all</span>                    
+              </div>
+              <ul>
+                <li>Admin & Guest Access Levels</li>
+                <li>Integrated Database</li>
+                <li>Secure Control</li>
+                <li>Mobile and Web</li>
+                <li>Easy to Use</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+<section id="documentation">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms">
+          <h2>Project Documentation</h2>
+          <p>During the life cycle of the project, many document artifacts are expected to be created, including: Vision Document, Research Manual, Functional Specification, Design Manual, Technical Manual & Iteration Reports. The aim of these documents is to allow a visible audit of the progress of the project and for technical documents, to allow the system to be developed efficiently using the documents.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+        <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+				<div class="doc-icon">
+           			<a href="documents/vision.pdf"><span class="glyphicon glyphicon-eye-open"></span></a>
+           		</div>
+              <div class="member-info">
+                <h3>Vision Document</h3>
+                <h4>September 2015</h4>
+                <p>Initial project pitch to academic supervision board</p>
+                <BR>
+                	<a href="documents/vision.pdf"><span>View Document Here</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms">
+           		<div class="doc-icon">
+           			<a href="documents/vision.pdf"><span class="glyphicon glyphicon-search"></span></a>
+           		</div>
+              <div class="member-info">
+                <h3>Research Document</h3>
+                <h4>September 2015 - Current</h4>
+                <p>Research on similar market solutions and technologies involved</p>
+                <BR>
+                	<a href="documents/research_document.pdf"><span>View Document Here</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="500ms">
+           		<div class="doc-icon">
+           			<a href="documents/vision.pdf"><span class="glyphicon glyphicon-equalizer"></span></a>
+           		</div>
+              <div class="member-info">
+                <h3>Functional Specification</h3>
+                <h4>November 2015 - Current</h4>
+                <p>Establishing project scope and principal functional requirements</p>
+                <BR>
+                	<a href="documents/functional_specification.pdf"><span>View Document Here</span></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-3">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+           		<div class="doc-icon">
+           			<a href="documents/vision.pdf"><span class="glyphicon glyphicon-pencil"></span></a>
+           		</div>
+              <div class="member-info">
+                <h3>Iteration One Report</h3>
+                <h4>December 2015</h4>
+                <p>First of three milestone marker documents</p>
+                <BR>
+                	<a href="documents/iteration_one.pdf"><span>View Document Here</span></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section>
+
+
+
+ <section id="team">
+    <div class="container">
+      <div class="row">
+        <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1200ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1200ms; animation-delay: 300ms; animation-name: none;">
+          <h2>Personal</h2>
+          <p>My name is Keith Byrne. My motivation for this project was the emergence of new technologies allowing people to gain functional control of their home and potentially reduce costs of their utility bills, enable users with special needs the access to lighting and device control without needing in home carers to handle simple tasks and also reduce the damage caused by the carbon footprint crisis.</p>
+        </div>
+      </div>
+      <div class="team-members">
+        <div class="row">
+          <div class="col-sm-4 col-md-offset-4">
+            <div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+              <div class="member-image">
+                <img class="img-responsive" src="images/personal/image.jpg" alt="">
+              </div>
+              <div class="member-info">
+                <h3>Keith Byrne</h3>
+                <h4>Undergraduate, Developer &amp; Designer</h4>
+                <p>Expected to graduate May 2016 with a Honours Bachelors in Software Development</p>
+              </div>
+              <div class="social-icons">
+                <ul>
+                  <li><a class="facebook" href="https://www.facebook.com/keithmicheallbyrne"><i class="fa fa-facebook"></i></a></li>
+                  <li><a class="linkedin" href="https://ie.linkedin.com/in/keith-byrne-88ab01a1"><i class="fa fa-linkedin"></i></a></li>
+                  <li><a class="rss" href="https://www.youtube.com/channel/UCIbY1H8alMq8csRSGOHOfTA?view_as=public"><i class="fa fa-youtube"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>            
+    </div>
+  </section><!--/#team-->
+
+
+   <section id="contact">
+      <!-- SKILLS COUNTER OVERLAY -->
+      <div class="row">
+          <div class="heading text-center col-sm-8 col-sm-offset-2 wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+            <h2>Wish to get in touch?</h2>
+            <p>All available contact details are offered below</p>
+          </div>
+        </div>
+      <div class="row">     
+          <div class="container">               
+              <div class="contact_feature">
+            <!-- BEGAIN CALL US FEATURE -->
+ 
+            <div class="col-sm-6">
+            	<div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+           			<div class="doc-icon">
+           				<span class="glyphicon glyphicon-earphone"></span>
+           			</div>
+              		<div class="member-info">
+                		<h3>Phone</h3>
+                		<p>+353 (0) 85 1307381</p>
+              		</div>
+            	</div>
+          	</div>
+
+			<div class="col-sm-6">
+            	<div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+           			<div class="doc-icon">
+           				<span class="glyphicon glyphicon-envelope"></span>
+           			</div>
+              		<div class="member-info">
+                		<h3>Email Address (Personal)</h3>
+                		<p>keithmbyrne@gmail.com</p>
+              		</div>
+            	</div>
+          	</div>
+
+          	<div class="col-sm-6">
+            	<div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+           			<div class="doc-icon">
+           				<span class="glyphicon glyphicon-send"></span>
+           			</div>
+              		<div class="member-info">
+                		<h3>Email Address (Academic)</h3>
+                		<p>c00170460@itcarlow.ie</p>
+              		</div>
+            	</div>
+          	</div>
+
+          	<div class="col-sm-6">
+            	<div class="team-member wow flipInY" data-wow-duration="1000ms" data-wow-delay="800ms">
+           			<div class="doc-icon">
+           				<span class="glyphicon glyphicon-home"></span>
+           			</div>
+              		<div class="member-info">
+                		<h3>Address</h3>
+                		<p>Institute of Technology, Killkenny Road, Co. Carlow,</p>
+              		</div>
+            	</div>
+          	</div>
+          </div>       
+        </div>
+      </div>
+    </section>
+
+    <div class "row"></div>
+
+
+  <footer id="footer">
+    <div class="footer-top wow fadeInUp" data-wow-duration="1000ms" data-wow-delay="300ms" style="visibility: hidden; animation-duration: 1000ms; animation-delay: 300ms; animation-name: none;">
+      <div class="container text-center">
+        <div class="footer-logo">
+
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="js/jquery.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+  <script type="text/javascript" src="js/jquery.inview.min.js"></script>
+  <script type="text/javascript" src="js/wow.min.js"></script>
+  <script type="text/javascript" src="js/mousescroll.js"></script>
+  <script type="text/javascript" src="js/smoothscroll.js"></script>
+  <script type="text/javascript" src="js/jquery.countTo.js"></script>
+  <script type="text/javascript" src="js/lightbox.min.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+
+  </body>
+</html>
