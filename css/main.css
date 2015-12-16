@@ -803,8 +803,12 @@ div.service-icon:hover
   line-height: 30px;
   border-radius:4px;
   text-align: center;
-  color: #fff;
   font-size: 12px;
+  color: #FFFFFF;
+}
+
+.post-icon:hover {
+  box-shadow: 0px 0px 25px #FFFFFF;
 }
 
 .post-meta {
