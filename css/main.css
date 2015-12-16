@@ -417,10 +417,26 @@ div.service-icon:hover
 ********portfolio CSS*****
 **************************/
 
+
+/* centered columns styles */
+#portfolio .row-centered {
+    text-align:center;
+}
+#portfolio .col-centered {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+
+
+
 #portfolio .container-fluid, 
 #portfolio .col-sm-3  {
   overflow: hidden;
-  padding: 0;
+  padding-right: 50px;
 }
 
 #portfolio .folio-item {
@@ -429,7 +445,7 @@ div.service-icon:hover
 
 #portfolio .overlay {
   background-color: #000;
-  color: #fff; 
+  color: #000; 
   left: 0;
   right:0;
   bottom:-100%;
@@ -479,7 +495,7 @@ div.service-icon:hover
 }
 
 .folio-overview a:hover {
-  color: #fff;
+  color: #000;
 }
 
 .folio-overview .folio-expand {
@@ -493,8 +509,8 @@ div.service-icon:hover
 }
 
 #portfolio .folio-item:hover .folio-image {
-  -webkit-transform: scale(1.5) rotate(-15deg);
-  transform: scale(1.5) rotate(-15deg);
+  -webkit-transform: scale(1) rotate(-15deg);
+  transform: scale(1) rotate(-15deg);
 }
 
 .folio-image img {
