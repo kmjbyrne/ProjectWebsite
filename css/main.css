@@ -442,8 +442,8 @@ div.service-icon:hover
 
 .overlay .overlay-content {
   display: table;
-  height: 50%;
-  width: 50%;
+  height: 100%;
+  width: 100%;
 }
 
 .overlay .overlay-text {
@@ -454,7 +454,7 @@ div.service-icon:hover
 .overlay .folio-info {
   opacity: 0;
   margin-bottom: 75px;
-  margin-top: 5px;
+  margin-top: -75px;
   -webkit-transition: all 1s ease-in-out;
   transition: all 1s ease-in-out;
 }
