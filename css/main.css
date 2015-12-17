@@ -857,10 +857,7 @@ div.service-icon:hover
   margin-right: 16px;
 }
 
-#post-carousel .carousel-indicators {
-  bottom: 3px;
-  left: 90%;
-}
+
 
 .blog-left-control, .blog-right-control {
   position: absolute;
